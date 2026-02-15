@@ -135,7 +135,7 @@
 
   <script src="https://cdn.socket.io/4.8.1/socket.io.min.js"></script>
   <script>
-    const socket = io("https://chat-app-fr9n.onrender.com", { transports: ["websocket"] });
+    const socket = io("https://chat-app-fr9n.onrender.com", { transports: ["websocket","polling"] });
     const chatMessages = document.getElementById("chatMessages");
     const messageInput = document.getElementById("messageInput");
     const sendButton = document.getElementById("sendButton");
